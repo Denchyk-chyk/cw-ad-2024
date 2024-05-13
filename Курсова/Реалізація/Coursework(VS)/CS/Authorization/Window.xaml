@@ -1,0 +1,25 @@
+﻿<Window x:Class="CS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS"
+        mc:Ignorable="d"
+        Title="Авторизація" Height="300" Width="450">
+    <Grid Margin="25">
+        <Grid.ColumnDefinitions>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="Connection" Content="З'єднати з сервером" Grid.Row="0" Margin="0 7.5" Click="Connection_Click"/>
+        <Button x:Name="UserSelection" Content="Вибрати користувача" Grid.Row="1" Margin="0 7.5" Click="UserSelection_Click"/>
+        <Button x:Name="UserAdding" Content="Додати користувача" Grid.Row="2" Margin="0 7.5" Click="UserAdding_Click"/>
+        <Button x:Name="Editing" Content="Перейти до роботи з базою даних" Grid.Row="3" Margin="0 7.5" Click="Editing_Click"/>
+    </Grid>
+</Window>
