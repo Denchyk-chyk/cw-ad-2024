@@ -9,6 +9,6 @@ namespace CS.General.Form.Logic
 		public void Enable();
 		public void Disable();
 		public void Delete();
-		public void Open(Form form);
+		public void Open(Form logic);
 	}
 }

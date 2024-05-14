@@ -17,7 +17,7 @@ namespace CS.General.Form.Field
 			set => Header.Text = value;
 		}
 
-		public ComboList List { set => Combo.ItemsSource = Storage.ComboLists[value]; }
+		public ComboList List { set => Combo.ItemsSource = Database.ComboLists[value]; }
 
 		public ListField()
 		{

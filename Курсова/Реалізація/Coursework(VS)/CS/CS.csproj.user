@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Authorization\ServerConnectorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Authorization\UserCreatorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="General\Form\Field\UI\ListField.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -16,17 +22,14 @@
     <Compile Update="General\Form\UI\FormButtons.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Test\Ui\Authorization.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Test\Ui\FormHAndler.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Test\Ui\FormUser.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Authorization\ServerConnectorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Authorization\UserCreatorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Authorization\Window.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -37,15 +40,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="General\Form\UI\FormButtons.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Test\Ui\Authorization.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Test\Ui\FormHAndler.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Test\Ui\FormUser.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

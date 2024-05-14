@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\denys\OneDrive\Документи\Навчання\ІФНТУНГ\2 Курс\2 Семестр\Архітектура та проєктування програмного забезпечення\Курсова\Реалізація\Coursework(VS)\CS\App.xaml
-7-1594694471
+6-862755456
 
-21966828706
-198915248976
-Authorization\Window.xaml;General\Form\Field\UI\ListField.xaml;General\Form\Field\UI\TextField.xaml;General\Form\UI\FormButtons.xaml;Test\Ui\Authorization.xaml;Test\Ui\FormHAndler.xaml;Test\Ui\FormUser.xaml;
+23331083479
+201662113742
+Authorization\ServerConnectorWindow.xaml;Authorization\UserCreatorWindow.xaml;Authorization\Window.xaml;General\Form\Field\UI\ListField.xaml;General\Form\Field\UI\TextField.xaml;General\Form\UI\FormButtons.xaml;
 
 True
 
