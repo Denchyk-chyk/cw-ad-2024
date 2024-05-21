@@ -22,6 +22,12 @@
     <Compile Update="General\Form\UI\FormButtons.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Output\Display.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Authorization\ServerConnectorWindow.xaml">
@@ -40,6 +46,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="General\Form\UI\FormButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Output\Display.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

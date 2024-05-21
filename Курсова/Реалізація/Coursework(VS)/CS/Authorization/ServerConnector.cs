@@ -8,7 +8,10 @@ namespace CS.Authorization
 {
 	public class ServerConnector : IFormHandler
 	{
+		public FormErrorHandler[] ErrorHandlers => _errorHandlers;
+		
 		private static ServerConnector _singletone;
+		private static FormErrorHandler[] _errorHandlers;
 
 		public static ServerConnector Instant()
 		{
@@ -18,49 +21,28 @@ namespace CS.Authorization
 
 		private ServerConnector() { }
 
-		private static void Connect(FormData data)
+		static ServerConnector()
 		{
-			Database.Connection = new NpgsqlConnection(
-				$"Host={data[Input.Tag.Host]};" +
-				$"Username={data[Input.Tag.Name]};" +
-				$"Password={data[Input.Tag.Password]};" +
-				$"Database={data[Input.Tag.Database]}");
-			Database.Connection.Open();
-
-			string query = $"SELECT rolname FROM pg_roles WHERE rolname = '{data[Input.Tag.Name]}' AND rolsuper = true";
-			using (var reader = new NpgsqlCommand(query, Database.Connection).ExecuteReader()) Database.Status = reader.Read() ? AuthorizationStatus.Admin : AuthorizationStatus.User;
+			_errorHandlers = [
+				new FormErrorHandler(typeof(SocketException), ex => $"Не вдалося під'єднатися до сервера", (Input.Tag.Host, "...")),
+				new FormErrorHandler(typeof(PostgresException), ex => ((PostgresException)ex).SqlState == "28P01", ex => $"Неправильне ім'я користувача або пароль", (Input.Tag.Password, string.Empty)),
+				new FormErrorHandler(typeof(PostgresException), ex => ((PostgresException)ex).SqlState == "3D000", ex => $"Базу даних не знайдено", (Input.Tag.Database, string.Empty)),
+				new FormErrorHandler(typeof(PostgresException), ex => ((PostgresException)ex).SqlState == "28000", ex => $"Помилка авторизації"),
+				new FormErrorHandler(typeof(PostgresException), ex => $"Помилка при під'єднанні до сервера:\n {((PostgresException)ex).ErrorCode}"),
+				new FormErrorHandler(typeof(Exception), ex => true, ex => $"Помилка:\n {ex.Message}")];
 		}
 
-		public bool Get(FormData data)
+		public void Get(Form form)
 		{
-			try
-			{ 
-				Connect(data); 
-			}
-			catch (SocketException exception)
-			{
-				data.Form.Reopen(data.CreateFeedback($"Помилка при підключенні до сервера ({exception.ErrorCode})", [(Input.Tag.Host, "...")]));
-				return false;
-			}
-			catch (PostgresException exception)
-			{
-				var feedback = data.CreateFeedback($"Помилка при підключенні до сервера:\n {exception.ErrorCode}");
+			Database.Connection = new NpgsqlConnection(
+				$"Host={form[Input.Tag.Host]};" +
+				$"Username={form[Input.Tag.Name]};" +
+				$"Password={form[Input.Tag.Password]};" +
+				$"Database={form[Input.Tag.Database]}");
+			Database.Connection.Open();
 
-				if (exception.SqlState == "28000") feedback = data.CreateFeedback("Помилка авторизації");
-				if (exception.SqlState == "28P01") feedback = data.CreateFeedback("Неправильне ім'я користувача або пароль", [(Input.Tag.Password, string.Empty)]);
-				if (exception.SqlState == "3D000") feedback = data.CreateFeedback("Базу даних не знайдено", [(Input.Tag.Database, string.Empty)]);
-
-				data.Form.Reopen(feedback);
-				return false; 
-			}
-			catch
-			{
-				data.Form.Reopen(data.CreateFeedback("Невідома помилка", []));
-				return false;
-			}
-
-			data.Form.Close();
-			return true;
+			string query = $"SELECT rolname FROM pg_roles WHERE rolname = '{form[Input.Tag.Name]}' AND rolsuper = true";
+			using (var reader = new NpgsqlCommand(query, Database.Connection).ExecuteReader()) Database.Status = reader.Read() ? AuthorizationStatus.Admin : AuthorizationStatus.User;
 		}
 	}
 }

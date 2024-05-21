@@ -1,5 +1,4 @@
-﻿using Input = CS.General.Form.Logic;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
 namespace CS.General.Form
@@ -14,10 +13,10 @@ namespace CS.General.Form
 			InitializeComponent();
 		}
 
-		public void Connect(Input.Form form)
+		public void Connect(Action send, Action close)
 		{
-			Submit.Click += (object sender, RoutedEventArgs e) => form.Send();
-			Cancel.Click += (object sender, RoutedEventArgs e) => form.Close();
+			Submit.Click += (object sender, RoutedEventArgs e) => send();
+			Cancel.Click += (object sender, RoutedEventArgs e) => close();
 		}
 	}
 }

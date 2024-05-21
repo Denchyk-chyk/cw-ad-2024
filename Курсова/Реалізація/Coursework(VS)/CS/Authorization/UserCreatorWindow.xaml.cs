@@ -1,20 +1,8 @@
-﻿using CS.General.Form.Field.Logic;
-using Input = CS.General.Form.Field.Logic;
+﻿using CS.General;
+using CS.General.Form.Field.Logic;
 using CS.General.Form.Logic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using CS.General;
+using Input = CS.General.Form.Field.Logic;
 
 namespace CS.Authorization
 {
@@ -49,10 +37,10 @@ namespace CS.Authorization
 			Show();
 		}
 
-		public void Open(Form logic)
+		public void Open(Action send, Action close)
 		{
 			Show();
-			Buttons.Connect(logic);
+			Buttons.Connect(send, close);
 		}
 	}
 }

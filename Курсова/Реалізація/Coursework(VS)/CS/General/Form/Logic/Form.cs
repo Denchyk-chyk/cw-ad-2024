@@ -5,6 +5,13 @@ namespace CS.General.Form.Logic
 {
 	public class Form
 	{
+		public object this[Input.Tag tag]
+		{
+			get => _data[tag];
+			set => _sets[tag].Write(value);
+		}
+
+		private Dictionary<Input.Tag, object> _data;
 		private Dictionary<Input.Tag, Input.Field> _sets;
 		private IFormUi _ui;
 		private IFormUser _user;
@@ -15,20 +22,21 @@ namespace CS.General.Form.Logic
 			_ui = ui;
 		}
 
-		public void Open(IFormHandler handler, IFormUser user)
+		public void Open(IFormUser user, IFormHandler handler)
 		{
-			_handler = handler;
-			_user = user;
-			_ui.Open(this);
+			_ui.Open(Send, Close);
 			_sets = _ui.Fields.ToDictionary(item => item.Tag, item => item);
+			_user = user;
+			_handler = handler;
 		}
 
-		public void Send()
+		private void Send()
 		{
 			if (Check(out Dictionary<Input.Tag, object> data))
 			{
+				_data = data;
 				_ui.Disable();
-				if (_handler.Get(new FormData(this, data))) Close();
+				FormSender.Send(this, _handler);
 			}
 		}
 
@@ -46,31 +54,17 @@ namespace CS.General.Form.Logic
 			return result;
 		}
 
-		public void Reopen(FormFeedback feedback)
+		public void Reopen(string feedback)
 		{
 			_ui.Enable();
-			foreach (var data in feedback.Data) _sets[data.Key].Write(data.Value);
-			MessageBox.Show(feedback.Message);
+			foreach (var item in _data) _sets[item.Key].Write(item.Value);
+			MessageBox.Show(feedback);
 		}
 		 
 		public void Close()
 		{
 			_user.ReturnTo();
 			_ui.Delete();
-		}
-	}
-
-	public struct FormData(Form form, Dictionary<Input.Tag, object> data)
-	{
-		public object this[Input.Tag tag] => _values[tag];
-		public Form Form { get; private set; } = form;
-
-		private Dictionary<Input.Tag, object> _values = data;
-
-		public FormFeedback CreateFeedback(string message, params (Input.Tag tag, object value)[] toChange)
-		{
-			foreach ((Input.Tag tag, object value) in toChange) _values[tag] = value;
-			return new FormFeedback(message, _values);
 		}
 	}
 }

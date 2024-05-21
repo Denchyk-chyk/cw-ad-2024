@@ -68,7 +68,7 @@ namespace CS.General.Form.Field {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CS;component/general/form/field/ui/textfield.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CS;V1.0.0.0;component/general/form/field/ui/textfield.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\..\General\Form\Field\UI\TextField.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

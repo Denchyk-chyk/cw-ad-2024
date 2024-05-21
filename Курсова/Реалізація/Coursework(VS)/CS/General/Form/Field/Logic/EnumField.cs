@@ -21,6 +21,7 @@
 		public override void Write(object value)
 		{
 			Ui.Selected = (int)value;
+			ShowCorrectness(false);
 		}
 
 		protected override void ShowCorrectness(bool correct)

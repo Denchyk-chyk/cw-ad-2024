@@ -33,18 +33,19 @@ namespace CS
 
 		private void Editing_Click(object sender, RoutedEventArgs e)
 		{
-
+			new Queries.MainWindow().Show();
+			Close();
 		}
 
 		private void Creating_Click(object sender, RoutedEventArgs e)
 		{
-			new Form(new UserCreatorWindow()).Open(UserCreator.Instant(), this);
+			new Form(new UserCreatorWindow()).Open(this, UserCreator.Instant());
 			Hide();
 		}
 
 		private void Connection_Click(object sender, RoutedEventArgs e)
 		{
-			new Form(new ServerConnectorWindow()).Open(ServerConnector.Instant(), this);
+			new Form(new ServerConnectorWindow()).Open(this, ServerConnector.Instant());
 			Hide();
 		}
 

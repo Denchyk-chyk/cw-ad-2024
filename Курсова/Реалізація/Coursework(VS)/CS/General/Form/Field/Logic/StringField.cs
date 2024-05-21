@@ -15,6 +15,7 @@
 		public override void Write(object value)
 		{
 			Ui.Text = value.ToString();
+			ShowCorrectness(false);
 		}
 
 		protected override void ShowCorrectness(bool correct)

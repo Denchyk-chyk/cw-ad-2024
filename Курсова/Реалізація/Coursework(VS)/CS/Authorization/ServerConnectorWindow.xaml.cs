@@ -37,10 +37,10 @@ namespace CS.Authorization
 			Show();
 		}
 
-		public void Open(Form logic)
+		public void Open(Action send, Action close)
 		{
 			Show();
-			Buttons.Connect(logic);
+			Buttons.Connect(send, close);
 		}
 
 		private void FillCommandBinding_Executed(object sender, System.Windows.Input.ExecutedRoutedEventArgs e)

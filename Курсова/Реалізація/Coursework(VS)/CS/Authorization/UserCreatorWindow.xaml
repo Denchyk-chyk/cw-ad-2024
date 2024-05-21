@@ -6,7 +6,7 @@
         xmlns:form="clr-namespace:CS.General.Form"
         xmlns:fields="clr-namespace:CS.General.Form.Field"
         mc:Ignorable="d"
-        Title="UserAddingWindow" Height="275" Width="450" WindowStyle="None" WindowStartupLocation="CenterScreen">
+        Title="UserAddingWindow" Height="290" Width="450" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid Margin="0 10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
