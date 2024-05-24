@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|c:\\users\\denys\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0456\u0444\u043D\u0442\u0443\u043D\u0433\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0440\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\coursework(vs)\\cs\\general\\form\\logic\\formerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|solutionrelative:cs\\general\\form\\logic\\formerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|c:\\users\\denys\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0456\u0444\u043D\u0442\u0443\u043D\u0433\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0440\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\coursework(vs)\\cs\\general\\form\\logic\\iformuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|solutionrelative:cs\\general\\form\\logic\\iformuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|c:\\users\\denys\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0456\u0444\u043D\u0442\u0443\u043D\u0433\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0440\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\coursework(vs)\\cs\\general\\form\\logic\\iformhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|solutionrelative:cs\\general\\form\\logic\\iformhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|c:\\users\\denys\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0456\u0444\u043D\u0442\u0443\u043D\u0433\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0440\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\coursework(vs)\\cs\\general\\form\\logic\\iformui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|solutionrelative:cs\\general\\form\\logic\\iformui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|c:\\users\\denys\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u043D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0456\u0444\u043D\u0442\u0443\u043D\u0433\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0440\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\coursework(vs)\\cs\\general\\form\\logic\\formsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEE67689-938A-42A4-840C-C208383B0A71}|CS\\CS.csproj|solutionrelative:cs\\general\\form\\logic\\formsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,31 +55,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormErrorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\FormErrorHandler.cs",
+              "RelativeDocumentMoniker": "CS\\General\\Form\\Logic\\FormErrorHandler.cs",
+              "ToolTip": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\FormErrorHandler.cs",
+              "RelativeToolTip": "CS\\General\\Form\\Logic\\FormErrorHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:06:54.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFormUser.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\IFormUser.cs",
+              "RelativeDocumentMoniker": "CS\\General\\Form\\Logic\\IFormUser.cs",
+              "ToolTip": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\IFormUser.cs",
+              "RelativeToolTip": "CS\\General\\Form\\Logic\\IFormUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:58:19.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFormHandler.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\IFormHandler.cs",
+              "RelativeDocumentMoniker": "CS\\General\\Form\\Logic\\IFormHandler.cs",
+              "ToolTip": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\IFormHandler.cs",
+              "RelativeToolTip": "CS\\General\\Form\\Logic\\IFormHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:57:18.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFormUi.cs",
+              "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\IFormUi.cs",
+              "RelativeDocumentMoniker": "CS\\General\\Form\\Logic\\IFormUi.cs",
+              "ToolTip": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\IFormUi.cs",
+              "RelativeToolTip": "CS\\General\\Form\\Logic\\IFormUi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:55:30.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FormSender.cs",
               "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\FormSender.cs",
               "RelativeDocumentMoniker": "CS\\General\\Form\\Logic\\FormSender.cs",
               "ToolTip": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\FormSender.cs",
               "RelativeToolTip": "CS\\General\\Form\\Logic\\FormSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T22:37:27.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form.cs",
               "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\Form.cs",
               "RelativeDocumentMoniker": "CS\\General\\Form\\Logic\\Form.cs",
               "ToolTip": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\General\\Form\\Logic\\Form.cs",
               "RelativeToolTip": "CS\\General\\Form\\Logic\\Form.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwEQAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T22:34:01.556Z"
+              "WhenOpened": "2024-05-19T22:34:01.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Window.xaml.cs",
               "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\Authorization\\Window.xaml.cs",
               "RelativeDocumentMoniker": "CS\\Authorization\\Window.xaml.cs",
@@ -75,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "UserCreator.cs",
               "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\Authorization\\UserCreator.cs",
               "RelativeDocumentMoniker": "CS\\Authorization\\UserCreator.cs",
@@ -87,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\denys\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\\u041D\u0430\u0432\u0447\u0430\u043D\u043D\u044F\\\u0406\u0424\u041D\u0422\u0423\u041D\u0413\\2 \u041A\u0443\u0440\u0441\\2 \u0421\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0440\u0445\u0456\u0442\u0435\u043A\u0442\u0443\u0440\u0430 \u0442\u0430 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u0420\u0435\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044F\\Coursework(VS)\\CS\\App.xaml",
               "RelativeDocumentMoniker": "CS\\App.xaml",
