@@ -1,0 +1,33 @@
+﻿<Window x:Class="CS.Queries.Second.FormUi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:general="clr-namespace:CS.General"
+        xmlns:fields="clr-namespace:CS.General.Form.Field"
+        xmlns:form="clr-namespace:CS.General.Form"
+        mc:Ignorable="d"
+        Title="FormUi" WindowStartupLocation="CenterScreen" Style="{StaticResource FormWindow}">
+    <Window.CommandBindings>
+        <CommandBinding x:Name="FillCommandBinding" Command="general:CustomCommands.FillCommand" Executed="FillCommandBinding_Executed"/>
+    </Window.CommandBindings>
+    <Grid Style="{StaticResource FormGrid}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <fields:ListField x:Name="Category" Title="Категорія" Grid.Row="0"/>
+        <fields:ListField x:Name="Unit" Title="Підрозділ" Grid.Row="1"/>
+        <fields:ListField x:Name="Workshop" Title="Цех" Grid.Row="2"/>
+        <fields:ListField x:Name="Site" Title="Ділянка" Grid.Row="3"/>
+        <fields:DateField x:Name="FirstDate" Title="Початкова дата" Grid.Row="4"/>
+        <fields:DateField x:Name="LastDate" Title="Кінцева дата" Grid.Row="5"/>
+        <form:FormButtons x:Name="Buttons" Grid.Row="6"/>
+    </Grid>
+</Window>

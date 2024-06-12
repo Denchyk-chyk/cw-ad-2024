@@ -29,16 +29,9 @@ namespace CS.Authorization
 
 		public void Get(Form form)
 		{
-			bool admin = int.Parse(form[Input.Tag.Type].ToString()) == (int)UserType.Admin;
 
-			string createUserQuery = admin ?
-				$"CREATE ROLE {form[Input.Tag.Name]} SUPERUSER LOGIN PASSWORD '{form[Input.Tag.Password]}'"
-				:
-				$"CREATE ROLE {form[Input.Tag.Name]} LOGIN PASSWORD '{form[Input.Tag.Password]}'";
-			string grantPrivilegesQuery = admin ?
-				$"GRANT ALL PRIVILEGES ON DATABASE {Database.Connection.Database} TO {form[Input.Tag.Name]};"
-				:
-				$"GRANT SELECT ON ALL TABLES IN SCHEMA public TO {form[Input.Tag.Name]};";
+			string createUserQuery = $"create role {form[Input.Tag.Name]} superuser login password '{form[Input.Tag.Password]}'";
+			string grantPrivilegesQuery = $"grant all privileges on database {Database.Connection.Database} to {form[Input.Tag.Name]};";
 
 			new NpgsqlCommand(createUserQuery, Database.Connection).ExecuteNonQuery();
 			new NpgsqlCommand(grantPrivilegesQuery, Database.Connection).ExecuteNonQuery();

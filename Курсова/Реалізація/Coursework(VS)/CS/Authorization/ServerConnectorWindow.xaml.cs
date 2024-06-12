@@ -1,45 +1,30 @@
-﻿using CS.General.Form.Field.Logic;
+﻿using CS.General.Form.Container;
+using CS.General.Form.Field.Logic;
 using CS.General.Form.Logic;
 using System.Windows;
 using Input = CS.General.Form.Field.Logic;
 
 namespace CS.Authorization
 {
-	/// <summary>
-	/// Interaction logic for ServerConnectionWindow.xaml
-	/// </summary>
 	public partial class ServerConnectorWindow : Window, IFormUi
 	{
-		public List<Field> Fields { get; set; }
+		public Container Container { get => _container; }
+
+		private Container _container;
 
 		public ServerConnectorWindow()
 		{
 			InitializeComponent();
-			Fields = [
+			_container = new Container([
 				new StringField(Host, Input.Tag.Host),
 				new StringField(Database, Input.Tag.Database),
 				new StringField(Name, Input.Tag.Name),
-				new StringField(Password, Input.Tag.Password)];
-		}
-
-		public void Delete()
-		{
-			Close();
-		}
-
-		public void Disable()
-		{
-			Hide();
-		}
-
-		public void Enable()
-		{
-			Show();
+				new StringField(Password, Input.Tag.Password)]);
 		}
 
 		public void Open(Action send, Action close)
 		{
-			Show();
+			base.Show();
 			Buttons.Connect(send, close);
 		}
 
@@ -50,5 +35,5 @@ namespace CS.Authorization
 			Name.Text = "postgres";
 			Password.Text = "ip-22-1-28";
         }
-    }
+	}
 }

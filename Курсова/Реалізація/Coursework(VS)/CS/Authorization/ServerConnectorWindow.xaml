@@ -7,18 +7,16 @@
         xmlns:fields="clr-namespace:CS.General.Form.Field"
         xmlns:general="clr-namespace:CS.General"
         mc:Ignorable="d"
-        Title="ServerConnectionWindow" Height="360" Width="450" WindowStyle="None" WindowStartupLocation="CenterScreen">
+        Title="ServerConnectionWindow" WindowStartupLocation="CenterScreen" Style="{StaticResource FormWindow}">
     <Window.CommandBindings>
         <CommandBinding x:Name="FillCommandBinding" Command="general:CustomCommands.FillCommand" Executed="FillCommandBinding_Executed"/>
     </Window.CommandBindings>
-    <Grid Margin="0 10">
+    <Grid x:Name="Wrapper" Margin="0 10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
@@ -26,6 +24,6 @@
         <fields:TextField x:Name="Name" Title="Ім'я" Grid.Row="1"/>
         <fields:TextField x:Name="Password" Title="Пароль" Grid.Row="2"/>
         <fields:TextField x:Name="Database" Title="База даних" Grid.Row="3"/>
-        <form:FormButtons x:Name="Buttons" Grid.Row="6"/>
+        <form:FormButtons x:Name="Buttons" Grid.Row="4"/>
     </Grid>
 </Window>

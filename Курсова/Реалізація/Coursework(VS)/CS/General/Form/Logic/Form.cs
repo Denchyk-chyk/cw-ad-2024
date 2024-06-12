@@ -25,17 +25,19 @@ namespace CS.General.Form.Logic
 		public void Open(IFormUser user, IFormHandler handler)
 		{
 			_ui.Open(Send, Close);
-			_sets = _ui.Fields.ToDictionary(item => item.Tag, item => item);
 			_user = user;
 			_handler = handler;
+			_user.Hide();
 		}
 
 		private void Send()
 		{
+			_sets = _ui.Container.GetFields().ToDictionary(item => item.Tag, item => item);
+
 			if (Check(out Dictionary<Input.Tag, object> data))
 			{
 				_data = data;
-				_ui.Disable();
+				_ui.Hide();
 				FormSender.Send(this, _handler);
 			}
 		}
@@ -56,15 +58,14 @@ namespace CS.General.Form.Logic
 
 		public void Reopen(string feedback)
 		{
-			_ui.Enable();
-			foreach (var item in _data) _sets[item.Key].Write(item.Value);
+			_ui.Show();
 			MessageBox.Show(feedback);
 		}
 		 
 		public void Close()
 		{
 			_user.ReturnTo();
-			_ui.Delete();
+			_ui.Close();
 		}
 	}
 }

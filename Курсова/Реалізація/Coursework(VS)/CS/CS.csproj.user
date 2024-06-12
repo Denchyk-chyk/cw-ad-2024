@@ -13,6 +13,9 @@
     <Compile Update="Authorization\UserCreatorWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="General\Form\Field\UI\DateField.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="General\Form\Field\UI\ListField.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,7 +28,25 @@
     <Compile Update="Output\Display.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Queries\Eighth\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\First\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Queries\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\Second\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\Fifth\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\Fourth\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\Third\FormUi.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -37,6 +58,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Authorization\Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="General\Form\Field\UI\DateField.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="General\Form\Field\UI\ListField.xaml">
@@ -51,7 +75,34 @@
     <Page Update="Output\Display.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Queries\Eighth\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Eleventh\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\First\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Queries\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Second\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Fifth\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Fourth\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Sixth\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Third\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Queries\Twelfth\FormUi.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

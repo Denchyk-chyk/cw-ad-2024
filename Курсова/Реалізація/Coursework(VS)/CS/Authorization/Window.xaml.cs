@@ -5,12 +5,10 @@ using System.Windows;
 
 namespace CS
 {
-	/// <summary>
-	/// Interaction logic for MainWindow.xaml
-	/// </summary>
 	public partial class MainWindow : Window, IFormUser
 	{
-		public static Dictionary<AuthorizationStatus, bool[]> _statuses = [];
+		private static Dictionary<ConnectionStatus, bool[]> _statuses = [];
+
 		public void SetStatus()
 		{
 			Connection.IsEnabled = _statuses[Database.Status][0];
@@ -26,9 +24,8 @@ namespace CS
 
 		static MainWindow()
 		{
-			_statuses[AuthorizationStatus.None] = [true, false, false];
-			_statuses[AuthorizationStatus.User] = [true, false, true];
-			_statuses[AuthorizationStatus.Admin] = [true, true, true];
+			_statuses[ConnectionStatus.None] = [true, false, false];
+			_statuses[ConnectionStatus.Connected] = [true, true, true];
 		}
 
 		private void Editing_Click(object sender, RoutedEventArgs e)
@@ -56,8 +53,8 @@ namespace CS
 		}
 	}
 
-	public enum AuthorizationStatus
+	public enum ConnectionStatus
 	{
-		None, User, Admin
+		None, Connected
 	}
 }

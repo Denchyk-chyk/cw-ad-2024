@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="385" Width="450" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+        Title="Запити" Height="370" Width="450" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -15,15 +15,11 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="User" Grid.Column="1" Content="Username" Padding="10 2" Panel.ZIndex="1" Margin="0 -2 2 0" Click="User_Click"/>
-
-        <TabControl Name="Tabs" Grid.ColumnSpan="2" Grid.RowSpan="2">
-            <TabItem Header="Звітність">
-                <Grid x:Name="Reporting" Margin="10" Style="{StaticResource ButtonsGrid}"/>
-                </TabItem>
-            <TabItem Header="Облік">
-                <Grid x:Name="Recording" Margin="10" Style="{StaticResource ButtonsGrid}"/>
-            </TabItem>
-        </TabControl>
+        <Button x:Name="User" Grid.Column="1" Content="Username" Padding="10 2" Panel.ZIndex="1" Margin="0 -2 2 0" Click="User_Click">
+            <Button.ToolTip>
+                <ToolTip Content="Змінити користувача"/>
+            </Button.ToolTip>
+        </Button>
+        <Grid x:Name="Main" Grid.Row="1" Grid.ColumnSpan="2" Margin="10 0"/>
     </Grid>
 </Window>

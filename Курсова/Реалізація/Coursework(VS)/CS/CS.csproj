@@ -2,11 +2,16 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Logo.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Page Include="App.xaml" />
@@ -19,6 +24,18 @@
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Queries\Eleventh\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\Sixth\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Queries\Twelfth\FormUi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

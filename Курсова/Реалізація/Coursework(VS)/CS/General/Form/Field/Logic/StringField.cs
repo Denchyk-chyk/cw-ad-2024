@@ -1,8 +1,12 @@
-﻿namespace CS.General.Form.Field.Logic
+﻿using CS.General.Form.Field.UI;
+
+namespace CS.General.Form.Field.Logic
 {
-	public class StringField(TextField ui, Tag tag) : Field(tag)
+	public class StringField(ITextFieldUi ui, Tag tag) : Field(tag)
     {
-		protected TextField Ui { get; private set; } = ui;
+		public override IFieldUi UiPart => Ui;
+
+		protected ITextFieldUi Ui { get; private set; } = ui;
 
 		public override bool TryRead(out object value)
         {

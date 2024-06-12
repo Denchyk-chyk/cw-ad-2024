@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "D5qZgE87xbYyTHaAqznHwRpoN9v3ihDBHHcAAWsfOWXx7bGw14mueTcrP8ZnW6xsrBdRYIQf0+ImNTv9oPLmbQ==",
+  "dgSpecHash": "+cOhmK0s5vL0m+txPNEd/p3JxIRdW3EqzbKVdcpGPnn0PZtv1hcJUPSs02/i3qYzrgo80np2uG+d0/nXX/qZHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\denys\\OneDrive\\Документи\\Навчання\\ІФНТУНГ\\2 Курс\\2 Семестр\\Архітектура та проєктування програмного забезпечення\\Курсова\\Реалізація\\Coursework(VS)\\CS\\CS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denys\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\denys\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\denys\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+    "C:\\Users\\denys\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
+    "C:\\Users\\denys\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512"
   ],
   "logs": []
 }

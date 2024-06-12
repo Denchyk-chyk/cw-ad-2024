@@ -12,6 +12,6 @@
         </Grid.RowDefinitions>
 
         <TextBlock Name="Header" Grid.ColumnSpan="2"/>
-        <ComboBox Name="Combo" Grid.Row="1" Padding="2.5 4.5" VerticalAlignment="Center"/>
+        <ComboBox Name="Combo" Grid.Row="1" Padding="2.5 4.5" VerticalAlignment="Center" DropDownClosed="Combo_DropDownClosed"/>
     </Grid>
 </UserControl>

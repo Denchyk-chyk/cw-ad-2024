@@ -6,10 +6,9 @@
         xmlns:form="clr-namespace:CS.General.Form"
         xmlns:fields="clr-namespace:CS.General.Form.Field"
         mc:Ignorable="d"
-        Title="UserAddingWindow" Height="290" Width="450" WindowStyle="None" WindowStartupLocation="CenterScreen">
-    <Grid Margin="0 10">
+        Title="UserAddingWindow" WindowStartupLocation="CenterScreen" Style="{StaticResource FormWindow}">
+    <Grid x:Name="Wrapper" Style="{StaticResource FormGrid}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
@@ -18,7 +17,6 @@
 
         <fields:TextField x:Name="Name" Title="Ім'я" Grid.Row="0"/>
         <fields:TextField x:Name="Password" Title="Пароль" Grid.Row="1"/>
-        <fields:ListField x:Name="Type" Title="Тип" Grid.Row="2"/>
         <form:FormButtons x:Name="Buttons" Grid.Row="4"/>
     </Grid>
 </Window>

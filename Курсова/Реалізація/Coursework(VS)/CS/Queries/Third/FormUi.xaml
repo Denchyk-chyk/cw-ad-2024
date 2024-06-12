@@ -1,0 +1,29 @@
+﻿<Window x:Class="CS.Queries.Third.FormUi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:field="clr-namespace:CS.General.Form.Field"
+        xmlns:form="clr-namespace:CS.General.Form"
+        mc:Ignorable="d"
+        Title="FormUi" WindowStartupLocation="CenterScreen" Style="{StaticResource FormWindow}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <field:ListField x:Name="Unit" Title="Підрозділ" Grid.Row="0"/>
+        <field:ListField x:Name="Workshop" Title="Цех" Grid.Row="1"/>
+        <field:ListField x:Name="Site" Title="Ділянка" Grid.Row="2"/>
+        <field:ListField x:Name="EmployeeCategory" Title="Персонал" Grid.Row="3"/>
+        <field:ListField x:Name="Engineer" Title="Категорія інженерно-технічного персоналу" Grid.Row="4"/>
+        <field:ListField x:Name="Laborer" Title="Категорія робітників" Grid.Row="5"/>
+        <form:FormButtons x:Name="Buttons" Grid.Row="6"/>
+    </Grid>
+</Window>

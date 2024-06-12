@@ -1,0 +1,25 @@
+﻿<Window x:Class="CS.Queries.Eighth.FormUi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fields="clr-namespace:CS.General.Form.Field"
+        xmlns:form="clr-namespace:CS.General.Form"
+        mc:Ignorable="d"
+        Title="FormUi" WindowStartupLocation="CenterScreen" Style="{StaticResource FormWindow}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <fields:ListField x:Name="Category" Title="Категорія" Grid.Row="0"/>
+        <fields:ListField x:Name="Switch" Title="Підрозділ" Grid.Row="1"/>
+        <fields:ListField x:Name="Workshop" Title="Цех" Grid.Row="2"/>
+        <fields:ListField x:Name="Site" Title="Ділянка" Grid.Row="3"/>
+        <form:FormButtons x:Name="Buttons" Grid.Row="4"/>
+    </Grid>
+</Window>

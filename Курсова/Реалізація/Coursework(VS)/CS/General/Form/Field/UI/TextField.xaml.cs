@@ -1,9 +1,10 @@
-﻿using System.Windows.Controls;
+﻿using CS.General.Form.Field.UI;
+using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace CS.General.Form.Field
 {
-	public partial class TextField : UserControl
+	public partial class TextField : UserControl, ITextFieldUi
 	{
 		public string Title
 		{
@@ -17,9 +18,9 @@ namespace CS.General.Form.Field
 			set => Field.Text = value;
 		}
 
-		public void ShowCorrectness(bool corrct)
+		public void ShowCorrectness(bool correct)
 		{
-			Header.Foreground = corrct ? Brushes.Black : Brushes.Red;
+			Header.Foreground = correct ? Brushes.Black : Brushes.Red;
 		}
 
 		public TextField()

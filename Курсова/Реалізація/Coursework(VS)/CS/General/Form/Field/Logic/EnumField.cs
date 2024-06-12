@@ -1,7 +1,11 @@
-﻿namespace CS.General.Form.Field.Logic
+﻿using CS.General.Form.Field.UI;
+
+namespace CS.General.Form.Field.Logic
 {
 	internal class EnumField : Field
 	{
+		public override IFieldUi UiPart => Ui;
+
 		protected ListField Ui { get; private set; }
 
 		public EnumField(ListField ui, ComboList type, Tag tag) : base(tag)
@@ -10,10 +14,12 @@
 			Ui.List = type;
 		}
 
+		protected virtual bool Check() => Ui.Selected > -1;
+
 		public override bool TryRead(out object value)
 		{
 			value = Ui.Selected;
-			bool result = Ui.Selected > -1;
+			bool result = Check();
 			ShowCorrectness(result);
 			return result;
 		}

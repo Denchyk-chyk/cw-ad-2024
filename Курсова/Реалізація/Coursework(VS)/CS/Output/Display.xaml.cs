@@ -1,27 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace CS.Output
 {
-	/// <summary>
-	/// Interaction logic for Display.xaml
-	/// </summary>
-	public partial class Display : Window
+	public partial class DisplayUi : Window
 	{
-		public Display()
+		private string[] _text;
+
+		public DisplayUi()
 		{
 			InitializeComponent();
+			Topmost = true;
+		}
+
+		public void GetData(string[] text)
+		{
+			_text = text;
+			Output.Text = string.Empty;
+			Output.Text += string.Join("\n\n", _text);
+		}
+
+		private void Save_Click(object sender, RoutedEventArgs e)
+		{
+			Saver.SaveText(Output.Text);
 		}
 	}
 }

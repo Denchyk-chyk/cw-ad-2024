@@ -34,15 +34,13 @@ namespace CS.Authorization
 
 		public void Get(Form form)
 		{
-			Database.Connection = new NpgsqlConnection(
+			Database.Load(new NpgsqlConnection(
 				$"Host={form[Input.Tag.Host]};" +
 				$"Username={form[Input.Tag.Name]};" +
 				$"Password={form[Input.Tag.Password]};" +
-				$"Database={form[Input.Tag.Database]}");
-			Database.Connection.Open();
+				$"Database={form[Input.Tag.Database]}"));
 
-			string query = $"SELECT rolname FROM pg_roles WHERE rolname = '{form[Input.Tag.Name]}' AND rolsuper = true";
-			using (var reader = new NpgsqlCommand(query, Database.Connection).ExecuteReader()) Database.Status = reader.Read() ? AuthorizationStatus.Admin : AuthorizationStatus.User;
+			Database.Status = ConnectionStatus.Connected;
 		}
 	}
 }
