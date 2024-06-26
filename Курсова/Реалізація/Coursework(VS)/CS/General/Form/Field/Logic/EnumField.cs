@@ -4,7 +4,15 @@ namespace CS.General.Form.Field.Logic
 {
 	internal class EnumField : Field
 	{
-		public override IFieldUi UiPart => Ui;
+		public override bool IsEnabled
+		{
+			get => Ui.IsEnabled;
+			set
+			{
+				if (!value) Ui.Selected = -1;
+				Ui.IsEnabled = value;
+			}
+		}
 
 		protected ListField Ui { get; private set; }
 

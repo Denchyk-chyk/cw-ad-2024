@@ -18,17 +18,18 @@ namespace CS.Queries.First
 					"left join buses on op.id = buses.id " +
 					"left join trucks tk on op.id = tk.id " +
 					"left join tractors tr on op.id = tr.id " +
-					"left join excavator e on op.id = e.id where op.id in ( " +
+					"left join excavator e on op.id = e.id " +
+				"where op.id in ( " +
 					"select distinct p.id from products p " +
-					"join brigades_specialization bs on p.id = bs.product " +
-					"join brigades b on b.id = bs.id " +
-					"join sites s on s.id = b.site " +
-					"join workshops w on w.id = s.workshop " +
-				$"where " +
-				CheckOptional(Input.Tag.Site, "s1.id") +
-				" and " +
-				CheckOptional(Input.Tag.Workshop, "s1.workshop") +
-				");"
+						"join brigades_specialization bs on p.id = bs.product " +
+						"join brigades b on b.id = bs.id " +
+						"join sites s on s.id = b.site " +
+						"join workshops w on w.id = s.workshop " +
+					$"where " +
+						CheckOptional(Input.Tag.ProductCategory, "category") +
+						" and " +
+						CheckOptional(Input.Tag.Workshop, "workshop") +
+					");"
 			;
 		}
 	}

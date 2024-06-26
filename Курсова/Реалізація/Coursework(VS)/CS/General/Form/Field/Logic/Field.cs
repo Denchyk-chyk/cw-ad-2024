@@ -5,7 +5,7 @@ namespace CS.General.Form.Field.Logic
     public abstract class Field(Tag tag)
     {
         public Tag Tag => tag;
-		public abstract IFieldUi UiPart { get; }
+		public abstract bool IsEnabled { get; set; }
 
 		public abstract bool TryRead(out object value);
 

@@ -49,6 +49,9 @@
     <Compile Update="Queries\Third\FormUi.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Test\Ui\Window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Authorization\ServerConnectorWindow.xaml">
@@ -103,6 +106,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Queries\Twelfth\FormUi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Test\Ui\Window.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

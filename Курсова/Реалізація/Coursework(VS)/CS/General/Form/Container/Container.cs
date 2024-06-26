@@ -22,7 +22,7 @@ namespace CS.General.Form.Container
 
 		public Container(Input.Field[] fields) : this(fields, Array.Empty<int[][]>()) { }
 
-		public Input.Field[] GetFields() => _fields.Where(e => e.UiPart.IsEnabled).ToArray();
+		public Input.Field[] GetFields() => _fields.Where(e => e.IsEnabled).ToArray();
 
 		public void Activate(int value, int layer = 0)
 		{
@@ -30,7 +30,7 @@ namespace CS.General.Form.Container
 			for (int i = 0; i < _fields.Length; i++)
 			{
 				if (_inactive[layer].Any(a => a.Contains(i)))
-					_fields[i].UiPart.IsEnabled = !(value == -1 || _inactive[layer][value].Contains(i));
+					_fields[i].IsEnabled = !(value == -1 || _inactive[layer][value].Contains(i));
 			}
 		}
 	}

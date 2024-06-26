@@ -4,7 +4,15 @@ namespace CS.General.Form.Field.Logic
 {
 	public class StringField(ITextFieldUi ui, Tag tag) : Field(tag)
     {
-		public override IFieldUi UiPart => Ui;
+		public override bool IsEnabled
+		{
+			get => Ui.IsEnabled;
+			set
+			{
+				if (!value) Ui.Text = string.Empty;
+				Ui.IsEnabled = value;
+			}
+		}
 
 		protected ITextFieldUi Ui { get; private set; } = ui;
 

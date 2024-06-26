@@ -39,7 +39,11 @@ namespace CS.General.Form.Field
 
 		private void Combo_DropDownClosed(object sender, EventArgs e)
 		{
-			if (_previousSelected == Selected) Selected = -1;
+			if (_previousSelected == Selected)
+			{
+				Selected = -1;
+				_previousSelected = -1;
+			}
 			else _previousSelected = Selected;
 		}
 	}
