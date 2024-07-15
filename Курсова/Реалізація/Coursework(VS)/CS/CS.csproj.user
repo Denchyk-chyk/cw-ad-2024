@@ -22,7 +22,7 @@
     <Compile Update="General\Form\Field\UI\TextField.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="General\Form\UI\FormButtons.xaml.cs">
+    <Compile Update="General\Form\Logic\UI\FormButtons.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Output\Display.xaml.cs">
@@ -72,7 +72,7 @@
     <Page Update="General\Form\Field\UI\TextField.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="General\Form\UI\FormButtons.xaml">
+    <Page Update="General\Form\Logic\UI\FormButtons.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Output\Display.xaml">

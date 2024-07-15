@@ -68,7 +68,7 @@ namespace CS.Output {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CS;component/output/display.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CS;V1.0.0.0;component/output/display.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Output\Display.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
